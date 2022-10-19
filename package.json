@@ -1,0 +1,18 @@
+{
+  "name": "colar-template",
+  "version": "0.0.1",
+  "description": "==================================================================================================",
+  "main": "dist/index.html",
+  "scripts": {
+    "build": "npm run build-11ty",
+    "build-11ty": "npx @11ty/eleventy",
+    "server": "live-server",
+    "watch-11ty": "npx @11ty/eleventy --serve",
+    "dev": "npm run watch-11ty"
+  },
+  "author": "Lazar Mladenovic",
+  "license": "MIT",
+  "devDependencies": {
+    "netlify-cli": "^9.16.3"
+  }
+}
